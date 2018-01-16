@@ -398,11 +398,11 @@ open class SKYChatConversationViewController: JSQMessagesViewController, AVAudio
         return messageMediaDataFactory
     }
 
-    var sendButton: UIButton?
-    var recordButton: UIButton?
-    var audioRecorder: AVAudioRecorder?
-    var inputTextView: UITextView?
-    var slideToCancelTextView: UITextView?
+    public var sendButton: UIButton?
+    public var recordButton: UIButton?
+    public var audioRecorder: AVAudioRecorder?
+    public var inputTextView: UITextView?
+    public var slideToCancelTextView: UITextView?
     var isRecordingCancelled: Bool = false
     var audioDict: [String: SKYChatConversationAudioItem] = [:]
     var audioTime: TimeInterval?
